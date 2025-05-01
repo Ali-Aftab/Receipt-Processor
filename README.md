@@ -10,9 +10,10 @@ You need [Docker][docker] and [Git][git] installed into your system.
 
 To run this application:
 
-1.  In your terminal type `git clone https://github.com/Ali-Aftab/Receipt-Processor.git` to clone it to your computer.
-2.  Then type `cd Receipt-Processor` to access the folder
-3.  Type `docker compose up --build` in your terminal and you can use the API!
+1.  Have Docker Desktop running in your computer.
+2.  In your terminal type `git clone https://github.com/Ali-Aftab/Receipt-Processor.git` to clone it to your computer.
+3.  Then type `cd Receipt-Processor` to access the folder.
+4.  Type `docker compose up --build` in your terminal and you can use the API!
 
 ## API
 

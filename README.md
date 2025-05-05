@@ -26,7 +26,9 @@ How to signup and login.
 - POST `/receipts/process` allows user to store receipt and returns an id <br/>
   &nbsp;&nbsp;-Requires a retailer, purchaseDate, purchaseTime, items, and total key inside body as instructed [here](https://github.com/fetch-rewards/receipt-processor-challenge/blob/main/README.md#examples). Note: items key should have an array of objects which each should have a shortDescription and price key.<br/>
   &nbsp;&nbsp;-Example:
-  ````{
+
+  ```
+  {
     "retailer": "Walgreens",
     "purchaseDate": "2022-01-02",
     "purchaseTime": "08:13",
@@ -35,9 +37,9 @@ How to signup and login.
         {"shortDescription": "Pepsi - 12-oz", "price": "1.25"},
         {"shortDescription": "Dasani", "price": "1.40"}
     ]
-  }```
-  <br/> <br/>
-  ````
+  }
+  ```
+
 - GET `/receipts/:id/points` allows a user to see the the points they have received from there.<br/>
   &nbsp;&nbsp;-Replace `:id` with the id (received from the POST route) in the URL. <br/> <br/>
 
